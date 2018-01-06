@@ -51,10 +51,10 @@ function setup() {
 }
 
 
-/********* DRAW BLOCK *********/
+//Blocks
 
 function draw() {
-  // Display the contents of the current screen
+  // content of current screen
   if (gameScreen == 0) { 
     initScreen();
   } else if (gameScreen == 1) { 
